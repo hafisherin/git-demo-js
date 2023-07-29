@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>messagebox</title>
+</head>
+<body>
+    <button type="button" onclick="displayname()">displayname</button>
+    <button type="button" onclick="confirmbox()">confirm box</button>
+    <script>
+        // promptbox
+        function displayname(){
+            var a=prompt("please enter your name","hey");
+        console.log(a);
+        }
+    
+        // confirmbox
+        function confirmbox(){
+            let confirmation=confirm("are you sure?");
+            console.log(confirmation);
+        }
+    </script>
+</body>
+</html>
